@@ -26,12 +26,12 @@ Nghiên cứu này thực hiện một chuỗi thí nghiệm có hệ thống đ
 [!!! DÁN BẢNG KẾT QUẢ (OUTPUT CỦA BƯỚC 5) VÀO ĐÂY !!!]
 
 *Ví dụ template bảng:*
-| Phương pháp | Test F1-macro | Thời gian train (s) | Số tham số train | Tỉ lệ tham số |
-|:---|---:|---:|:---|---:|
-| Full Fine-Tuning (Baseline) | [Điền F1] | [Điền Time] | [Điền Params] | 100.00% |
-| LoRA r=8 | [Điền F1] | [Điền Time] | [Điền Params] | [Điền %] |
-| LoRA r=256 | [Điền F1] | [Điền Time] | [Điền Params] | [Điền %] |
-| LoRA r=512 | [Điền F1] | [Điền Time] | [Điền Params] | [Điền %] |
+| Phương pháp                 |   Test F1-macro |   Thời gian train (s) |   Số tham số train |   Tỉ lệ tham số vs Full |
+|:----------------------------|----------------:|----------------------:|-------------------:|------------------------:|
+| Full Fine-Tuning (Baseline) |        0.71242  |               479.522 |          135000579 |              1          |
+| LoRA r=8                    |        0.657087 |                70.501 |            1035267 |              0.00766861 |
+| LoRA r=256                   |        0.712679 |               104.58  |           14748675 |              0.109249   |
+| LoRA r=512                   |        0.706377 |               133.332 |           28904451 |              0.214106   |
 
 ---
 
